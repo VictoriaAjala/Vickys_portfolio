@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Vickys_portfolio
-My Portfolio Built With React, Tailwind CSS And Framer Motion.
-=======
 # Next.Js Website Tutorial: Create a Stunning Portfolio Website with Nextjs, Tailwind CSS and Framer-motion🌟
 
 ![GitHub stars](https://img.shields.io/github/stars/codebucks27/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
@@ -44,4 +40,3 @@ on [Unsplash](https://unsplash.com/photos/ILip77SbmOE?utm_source=unsplash&utm_me
 - [Tailwind css](https://tailwindcss.com/) <br />
 
 
->>>>>>> master
