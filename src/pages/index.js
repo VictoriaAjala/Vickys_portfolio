@@ -1,10 +1,12 @@
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-import { LinkArrow } from '@/components/Icons';
+import { CircularText, LinkArrow } from '@/components/Icons';
 import ProfilePic from "../../public/images/profile/v3.png";
 import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link';
+import HireMe from '@/components/HireMe';
+import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg"
 
 export default function Home() {
   return (
@@ -42,6 +44,11 @@ Explore my latest projects and articles, showcasing my expertise in React.js and
             </div>
           </div>
         </Layout>
+
+        <HireMe />
+        <div className='absolute right-8 bottom-8 inline-block w-24'>
+          <Image src={lightBulb} alt="Codebucks" className='w-full h-auto' />
+        </div>
       </main>
     </>
   )
